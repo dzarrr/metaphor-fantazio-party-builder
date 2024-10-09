@@ -1,0 +1,16 @@
+export const archetypeList = [
+  { name: "Seeker" },
+  { name: "Mage" },
+  { name: "Warrior" },
+  { name: "Knight" },
+  { name: "Thief" },
+  { name: "Masked Dancer" },
+  { name: "Summoner" },
+  { name: "Berserker" },
+  { name: "Gunner" },
+  { name: "Healer" },
+  { name: "Brawler" },
+  { name: "Commander" },
+  { name: "Faker" },
+  { name: "Merchant" },
+];
