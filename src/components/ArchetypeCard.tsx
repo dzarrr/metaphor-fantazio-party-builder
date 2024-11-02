@@ -3,6 +3,7 @@ import Typography from "@mui/joy/Typography";
 import Select from "@mui/joy/Select";
 import Option from "@mui/joy/Option";
 import Divider from "@mui/joy/Divider";
+import SubdirectoryArrowRightIcon from "@mui/icons-material/SubdirectoryArrowRight";
 import { archetypeList } from "../const/archetypeList";
 
 export const ArchetypeCard = ({
@@ -32,6 +33,7 @@ export const ArchetypeCard = ({
     <Select name={formSelectName} placeholder="Select your archetype">
       {archetypeList.map((archetype) => (
         <Option key={archetype.name} value={archetype.name}>
+          {!archetype.isOrigin && <SubdirectoryArrowRightIcon />}
           {archetype.name}
         </Option>
       ))}
